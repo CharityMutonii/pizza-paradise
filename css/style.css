@@ -101,3 +101,12 @@ text-decoration: none;
 #about h1{
     padding-top: 40px;
 }
+#contact{
+    background: transparent;
+    z-index: 1;
+    opacity: .9;
+}
+#contact h1{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
