@@ -110,3 +110,19 @@ text-decoration: none;
     padding-bottom: 50px;
     padding-top: 50px;
 }
+#foot{
+    padding-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+
+ }
+ .foot p{
+     text-align: center;
+     font-size: 10px;
+
+ 
+}
+.social{
+    padding-right: 100px;
+}
