@@ -3,7 +3,13 @@
     padding: 0;
 }
 body{
-    
+   
+}
+#chckout {
+    display: none;
+}
+#checkoutslist {
+    display: none;
 }
 #nav{
     position: absolute;
