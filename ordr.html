@@ -13,6 +13,104 @@
     <script src="scriptss.js"></script>
 </head>
 <body>
-    
+    <section id="orders">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="online-order">
+                        <h3>ORDER OUR FAVOURITE</h3>
+                        <form action="" id="orderform">
+                            <strong>Customer Names: </strong>
+                            <input id="uname" type="text" name="name" value="" required><br><br>
+                            <div class="new-orders">
+                                <div class="orders-new">
+                                    <strong>Pizza size:</strong>
+                                    <select name="pizza-size" id="sizes">
+                                        <option value="small">small:4,500RWf</option>
+                                        <option value="medium">medium:5,500RWf</option>
+                                        <option value="large">large:7,500RWf</option>
+                                    </select> <br> <br>
+                                    <strong>Crust:</strong>
+                                    <select name="crust" id="crusts">
+                                        <option value="cripsy">cripsy:3,200rWf</option>
+                                        <option value="stuffed">Stuffed Crust:2,400rWf</option>
+                                        <option value="gluten-free">gluten-free:4,700rWf</option>
+                                    </select>
+                                    <br><br>
+                                    <strong> toppings :</strong><br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="Ham" />
+
+                                        <label class="form-check-label" for="inlineCheckbox1">
+                                            Ham (2,000RWf)</label>
+
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                            value="Pepperoni" />
+
+                                        <label class="form-check-label" for="inlineCheckbox2">
+                                            Pepperoni (1,000RWf)</label>
+
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                            value="Mozzarella" />
+
+                                        <label class="form-check-label" for="inlineCheckbox3">
+                                            Mozzarella (4,500RWf)</label>
+
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                            value="Sausage" />
+                                        <label class="form-check-label" for="inlineCheckbox4">
+                                            Sausage(3,000RWf)</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                            value="Bacon" />
+                                        <label class="form-check-label" for="inlineCheckbox5">
+                                            Bacon (4,000RWf)</label>
+                                    </div>
+                                    <br><br>
+                                </div>
+                            </div>
+                            <input type="submit" id="buttonOrder" value="ORDER">
+                            <button type="button" class="btn btn-success" name="checkout" id="chckout">
+                                checkout</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <div class="container" id="checkoutAnddeliver">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="checkouts">
+                        <h3>Your order(s)</h3>
+                        <ol id="checkoutslist">
+
+                        </ol>
+                        <h4> Thank you for buying with us!</h4>
+                        <span class="btn btn-primary" id="delivers">Deliver</span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="addresses">
+                        <h4>Fill in your address</h4>
+                        <form class="">
+                            Enter your address:
+                            <input type="text" name="addr" value=""> <br>
+                            <input id="addre" class="btn btn-primary" type="submit" value="SUBMIT"> <br><br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
