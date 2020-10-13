@@ -3,7 +3,13 @@
     padding: 0;
 }
 body{
-    
+   
+}
+#chckout {
+    display: none;
+}
+#checkoutslist {
+    display: none;
 }
 #nav{
     position: absolute;
@@ -125,4 +131,38 @@ text-decoration: none;
 }
 .social{
     padding-right: 100px;
+}
+#orders{
+    background: url("../images/photo-1574126154517-d1e0d89ef734.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+strong{
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.online-order h3{
+    color: white;
+    padding-top: 80px;
+}
+label{
+    color: white;
+}
+.checkouts{
+    color: white;
+    
+}
+.checkouts h3{
+    padding-top: 50px;
+}
+.addresses{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    display: none;
+}
+.addresses h4{
+    padding-top: 50px;
 }
